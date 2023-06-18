@@ -11,12 +11,12 @@ export const Home = () => {
     <section className='home' id='home'>
         <div className='home__container container'>
             <p className='home__subtitle text-cs'>Hello, <span>My Name Is</span></p>
-            <h1 className='home__title text-cs'><span>ZOE</span> MILLER</h1>
+            <h1 className='home__title text-cs'><span>NASTYA</span> OMIK</h1>
             <p className='home__job'>
-                <span className='text-cs'>I Am</span> <b>Web Developer</b>
+                <span className='text-cs'>I Am</span> <b>Lawyer</b>
             </p>
             <p className='home__text'>
-                From France, Paris
+                From Portugal, Lisbon
             </p>
             <div className='home__socials'>
                 <a href='https://github.com/nikit34' className='home__social-link'>

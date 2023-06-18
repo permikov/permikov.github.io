@@ -156,3 +156,25 @@ img {
   height: 2px;
   background-color: var(--border-color);
 }
+
+.home__img-wrapper {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  width: 100%;
+  max-width: 580px;
+}
+
+.home__banner {
+  background-color: var(--primary-color);
+  padding-bottom: 100%;
+  border-radius: 50%;
+}
+
+.home__profile {
+  position: absolute;
+  top: 0;
+  height: 580px;
+  border-radius: 500px;
+  object-fit: cover;
+}

@@ -15,6 +15,11 @@ export const Home = () => {
             <p className='home__job'>
                 <span className='text-cs'>I Am</span> <b>Lawyer</b>
             </p>
+            <div className='home__img-wrapper'>
+                <div className='home__banner'>
+                    <img src={profileImg} alt='' className='home__profile'></img>
+                </div>
+            </div>
             <p className='home__text'>
                 From Portugal, Lisbon
             </p>

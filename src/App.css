@@ -97,3 +97,9 @@ button {
 img {
   max-width: 100%;
 }
+
+.container {
+  max-width: 1300px;
+  padding-inline: 12px;
+  margin-inline: auto;
+}

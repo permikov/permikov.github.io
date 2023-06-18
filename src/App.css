@@ -185,6 +185,7 @@ img {
 .card {
     background-color: var(--container-color);
     overflow: hidden;
+    text-align: left;
 }
 
 .card-one {

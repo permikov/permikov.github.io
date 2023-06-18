@@ -1,5 +1,4 @@
 import React from "react";
-import './services.css';
 import { services } from '../../Data';
 import {FaArrowRight} from 'react-icons/fa';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper';
 import shapeTwo from '../../asserts/shape-2.png';
+import './services.css';
 
 
 const Services = () => {

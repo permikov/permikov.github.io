@@ -1,5 +1,5 @@
 .home {
-    background-color: var(--first-gradient);
+    background-image: var(--first-gradient);
     min-height: 100vh;
     display: grid;
     align-items: center;
@@ -90,6 +90,7 @@
     padding-bottom: 100%;
     border-radius: 50%;
     position: relative;
+    z-index: 1;
 }
 
 .home__profile {
@@ -111,6 +112,7 @@
     display: flex;
     align-items: center;
     position: absolute;
+    z-index: 1  ;
 }
 
 .home__data-one {
@@ -148,4 +150,27 @@
 .home__data .text-lg b {
     position: relative;
     top: -4px;
+}
+
+.shape__1 {
+    width: 225px;
+    height: 225px;
+    top: -15%;
+    right: 5%;
+}
+
+.shape__2,
+.shape__3 {
+    width: 140px;
+    height: 140px;
+}
+
+.shape__2 {
+    bottom: 5%;
+    left: -15%;
+}
+
+.shape__3 {
+    bottom: 0;
+    right: -2%;
 }

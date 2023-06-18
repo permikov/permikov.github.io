@@ -1,7 +1,7 @@
 import React from 'react'
 import profileImg from '../../asserts/profile.png';
-// import shapeOne from '../../asserts/shape-1.png';
-// import shapeTwo from '../../asserts/shape-2.png';
+import shapeOne from '../../asserts/shape-1.png';
+import shapeTwo from '../../asserts/shape-2.png';
 import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import './home.css';
 
@@ -35,6 +35,10 @@ export const Home = () => {
                         Completed <span>Projects</span>
                     </span>
                 </p>
+
+                <img src={shapeOne} alt='' className='shape shape__1'></img>
+                <img src={shapeTwo} alt='' className='shape shape__2'></img>
+                <img src={shapeTwo} alt='' className='shape shape__3'></img>
             </div>
             <p className='home__text'>
                 From Portugal, Lisbon

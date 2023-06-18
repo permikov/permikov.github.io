@@ -18,7 +18,7 @@ export const Home = () => {
             <p className='home__text'>
                 From France, Paris
             </p>
-            <div className='home__social'>
+            <div className='home__socials'>
                 <a href='https://github.com/nikit34' className='home__social-link'>
                     <FaTwitter />
                 </a>

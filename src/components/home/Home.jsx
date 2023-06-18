@@ -2,7 +2,7 @@ import React from 'react'
 import profileImg from '../../asserts/profile.png';
 // import shapeOne from '../../asserts/shape-1.png';
 // import shapeTwo from '../../asserts/shape-2.png';
-import { FaTwitter, FaDribbble, FaBehance } from 'react-icons/fa';
+import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import './home.css';
 
 
@@ -19,19 +19,35 @@ export const Home = () => {
                 <div className='home__banner'>
                     <img src={profileImg} alt='' className='home__profile'></img>
                 </div>
+                <p className='home__data home__data-one'>
+                    <span className='text-lg'>
+                        6 <b>+</b>
+                    </span>
+                    <span className='text-sm text-cs'>
+                        Years of <span>Experience</span>
+                    </span>
+                </p>
+                <p className='home__data home__data-two'>
+                    <span className='text-lg'>
+                        330
+                    </span>
+                    <span className='text-sm text-cs'>
+                        Completed <span>Projects</span>
+                    </span>
+                </p>
             </div>
             <p className='home__text'>
                 From Portugal, Lisbon
             </p>
             <div className='home__socials'>
-                <a href='https://github.com/nikit34' className='home__social-link'>
-                    <FaTwitter />
+                <a href='https://t.me/nikit34' className='home__social-link'>
+                    <FaTelegram />
                 </a>
                 <a href='https://github.com/nikit34' className='home__social-link'>
-                    <FaDribbble />
+                    <FaGithub />
                 </a>
-                <a href='https://github.com/nikit34' className='home__social-link'>
-                    <FaBehance />
+                <a href='https://www.linkedin.com/in/nikitapermikov/' className='home__social-link'>
+                    <FaLinkedin />
                 </a>
             </div>
             <div className='home__btns'>

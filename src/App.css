@@ -184,6 +184,7 @@ img {
 
 .card {
     background-color: var(--container-color);
+    overflow: hidden;
 }
 
 .card-one {
@@ -206,4 +207,11 @@ img {
 
 .link:hover .link__icon {
     margin-left: 15px;
+}
+
+.c__shape {
+    right: -40px;
+    bottom: -50px;
+    width: 140px;
+    height: 140px;
 }

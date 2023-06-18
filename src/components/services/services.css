@@ -2,6 +2,10 @@
     background-image: var(--second-gradient);
 }
 
+.swiper-wrapper {
+    margin-bottom: 52px;
+}
+
 .services__subtitle {
     color: var(--title-color);
     font-size: var(--tiny-font-size);
@@ -19,7 +23,3 @@
     min-height: 175px;
 }
 
-.link {
-    display: inline-flex;
-    align-items: center;
-}

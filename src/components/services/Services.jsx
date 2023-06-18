@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper';
+import shapeTwo from '../../asserts/shape-2.png';
 
 
 const Services = () => {
@@ -41,10 +42,11 @@ const Services = () => {
                             <span className="services__subtitle text-cs">{name}</span>
                             <h3 className="services__title">{title}</h3>
                             <p className="services__description">{description}</p>
-                            <a href='' className="link">
+                            <a href="" className="link">
                                 See Pricing
                                 <FaArrowRight className="link__icon"></FaArrowRight>
                             </a>
+                            <img src={shapeTwo} alt="" className="shape c__shape" />
                         </SwiperSlide>
                     );
                 })}

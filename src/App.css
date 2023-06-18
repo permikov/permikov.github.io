@@ -2,147 +2,146 @@
 
 
 :root {
-  --primary-color: hsl(165, 60%, 40%);
-  --title-color: hsl(0, 0%, 100%);
-  --text-color: hsl(0, 0%, 95%);
-  --bg-color: hsl(215, 20%, 15%);
-  --bg-color-alt: hsl(215, 10%, 20%);
-  --container-color: hsl(215, 15%, 15%);
-  --border-color: hsl(210, 5%, 65%);
-  --first-gradient: linear-gradient(
-    0deg,
-    var(--bg-color-alt) 0%,
-    var(--bg-color) 100%,
-  );
-  --second-gradient: linear-gradient(
-    180deg,
-    var(--bg-color-alt) 0%,
-    var(--bg-color) 100%,
-  );
-  --third-gradient: linear-gradient(
-    180deg,
-    var(--bg-color) 0%,
-    var(--bg-color) 100%,
-  );
+    --primary-color: hsl(165, 60%, 40%);
+    --title-color: hsl(0, 0%, 100%);
+    --text-color: hsl(0, 0%, 95%);
+    --bg-color: hsl(215, 20%, 15%);
+    --bg-color-alt: hsl(215, 10%, 20%);
+    --container-color: hsl(215, 15%, 15%);
+    --border-color: hsl(210, 5%, 65%);
+    --first-gradient: linear-gradient(
+      0deg,
+      var(--bg-color-alt) 0%,
+      var(--bg-color) 100%,
+    );
+    --second-gradient: linear-gradient(
+      180deg,
+      var(--bg-color-alt) 0%,
+      var(--bg-color) 100%,
+    );
+    --third-gradient: linear-gradient(
+      180deg,
+      var(--bg-color) 0%,
+      var(--bg-color) 100%,
+    );
 
-  --body-font: 'Jost' sans-serif;
-  --second-font: 'Caveat', cursive;
-  --biggest-font-size: 90px;
-  --h1-font-size: 44px;
-  --h2-font-size: 30px;
-  --h3-font-size: 28px;
-  --h4-font-size: 24px;
-  --h5-font-size: 22px;
-  --largest-font-size: 21px;
-  --larger-font-size: 20px;
-  --large-font-size: 21px;
-  --normal-font-size: 16px;
-  --small-font-size: 15px;
-  --smaller-font-size: 14px;
-  --tiny-font-size: 13px;
+    --body-font: 'Jost' sans-serif;
+    --second-font: 'Caveat', cursive;
+    --biggest-font-size: 90px;
+    --h1-font-size: 44px;
+    --h2-font-size: 30px;
+    --h3-font-size: 28px;
+    --h4-font-size: 24px;
+    --h5-font-size: 22px;
+    --largest-font-size: 21px;
+    --larger-font-size: 20px;
+    --large-font-size: 21px;
+    --normal-font-size: 16px;
+    --small-font-size: 15px;
+    --smaller-font-size: 14px;
+    --tiny-font-size: 13px;
 
-  --shadow: 5px 5px rgb(255 255 255 / 10%);
-  --transition: cubic-bezier(0.3, 0, 0.3, 1);
+    --shadow: 5px 5px rgb(255 255 255 / 10%);
+    --transition: cubic-bezier(0.3, 0, 0.3, 1);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 button,
 input,
 body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
 }
 
 body {
-  color: var(--text-color);
-  background-color: var(--bg-color);
+    color: var(--text-color);
+    background-color: var(--bg-color);
 }
 
 h1,
 h2,
 h3 {
-  color: var(--title-color);
-  font-weight: 700;
+    color: var(--title-color);
+    font-weight: 700;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 p {
-  line-height: 1.7;
+    line-height: 1.7;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 input,
 textarea,
 button {
-  border: none;
-  outline: none;
-  background: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
 }
 
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .container {
-  max-width: 1300px;
-  padding-inline: 12px;
-  margin-inline: auto;
+    max-width: 1300px;
+    padding-inline: 12px;
+    margin-inline: auto;
 }
 
 .text-cs {
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .btn,
 .hero__link {
-  color: var(--text-color);
-  font-size: var(--tiny-font-size);
-  font-weight: 700;
-  height: 56px;
-  display: grid;
-  place-items: center;
-  position: relative;
+    color: var(--text-color);
+    font-size: var(--tiny-font-size);
+    font-weight: 700;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    position: relative;
 }
 
 .btn {
-  border: 2px solid var(--border-color);
-  padding-inline: 40px;
-  border-radius: 56px;
-  box-shadow: var(--shadow);
+    border: 2px solid var(--border-color);
+    padding-inline: 40px;
+    border-radius: 56px;
+    box-shadow: var(--shadow);
 }
 
 .btn::before {
-  content: '';
-  position: absolute;
-  inset: 2px;
-  background-color: var(--primary-color);
-  border-radius: inherit;
-  transform: scale(0.3);
-  filter: blur(10px);
-  opacity: 0;
-  transition: all 0.7s var(--transition);
-  z-index: -1;
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background-color: var(--primary-color);
+    border-radius: inherit;
+    transform: scale(0.3);
+    filter: blur(10px);
+    opacity: 0;
+    transition: all 0.7s var(--transition);
+    z-index: -1;
 }
 
 .btn:hover::before {
-  transform: scale(1);
-  filter: blur(0);
-  opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
 }
-

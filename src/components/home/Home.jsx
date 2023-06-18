@@ -10,11 +10,29 @@ export const Home = () => {
   return (
     <section className='home' id='home'>
         <div className='home__container container'>
-            <p className='home__subtitle text-cs'>Hello<span>My Name Is</span></p>
-            <p className='home__title text-cs'><span>ZOE</span>MILLER</p>
+            <p className='home__subtitle text-cs'>Hello, <span>My Name Is</span></p>
+            <h1 className='home__title text-cs'><span>ZOE</span> MILLER</h1>
             <p className='home__job'>
-                <span className='text-cs'>I Am</span> <b>Web DEveloper</b>
+                <span className='text-cs'>I Am</span> <b>Web Developer</b>
             </p>
+            <p className='home__text'>
+                From France, Paris
+            </p>
+            <div className='home__social'>
+                <a href='https://github.com/nikit34' className='home__social-link'>
+                    <FaTwitter />
+                </a>
+                <a href='https://github.com/nikit34' className='home__social-link'>
+                    <FaDribbble />
+                </a>
+                <a href='https://github.com/nikit34' className='home__social-link'>
+                    <FaBehance />
+                </a>
+            </div>
+            <div className='home__btns'>
+                <a href='https://github.com/' className='btn'>Download CV</a>
+                <a href='https://github.com/' className='hero__link'>My Skills</a>
+            </div>
         </div>
     </section>
   )

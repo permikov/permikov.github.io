@@ -30,8 +30,8 @@ export const Home = () => {
                 </a>
             </div>
             <div className='home__btns'>
-                <a href='https://github.com/' className='btn'>Download CV</a>
-                <a href='https://github.com/' className='hero__link'>My Skills</a>
+                <a href='https://github.com/' className='btn text-cs'>Download CV</a>
+                <a href='https://github.com/' className='hero__link text-cs'>My Skills</a>
             </div>
         </div>
     </section>

@@ -41,7 +41,7 @@
     --smaller-font-size: 14px;
     --tiny-font-size: 13px;
 
-    --shadow: 5px 5px rgb(255 255 255 / 10%);
+    --shadow: 2px 2px rgb(255 255 255 / 10%);
     --transition: cubic-bezier(0.3, 0, 0.3, 1);
 }
 
@@ -191,11 +191,17 @@ img {
     background-color: var(--container-color);
     overflow: hidden;
     text-align: left;
+    position: relative;
 }
 
 .card-one {
     padding: 30px 35px;
     border-radius: 18px;
+}
+
+.card-two {
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .link {

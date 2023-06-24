@@ -118,3 +118,62 @@ export const projects = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
     }
 ];
+
+export const cv = [
+    {
+        id: 1,
+        title: 'SDET (PYTHON, GOLANG), KASPERSKY',
+        subtitle: 'KASPERSKYOS, APROTECH',
+        date: '2014 - 2016',
+        description: 'IoT in Industry, creating an environment for testing physical devices - gateways. Conducted performance testing',
+        category: 'IoT'
+    },
+    {
+        id: 2,
+        title: 'PYTHON DEVELOPER, RAMBLER',
+        subtitle: 'AFISHA',
+        date: '2016 - 2018',
+        description: 'Created unit tests, integration and mAPI tests. Created a pipeline for building iOS and Android applications and running tests with generating reports on the server',
+        category: 'Developer'
+    },
+    {
+        id: 3,
+        title: 'JUNIOR PYTHON DEVELOPER, SBERBANK',
+        subtitle: 'SBERUSER',
+        date: '2015 - 2016',
+        description: 'Built automation, set up a test environment, conducted unit, performance, bulk and functional testing, exploratory, tested api',
+        category: 'Web'
+    },
+    {
+        id: 4,
+        title: 'SDET (PYTHON, GOLANG), KASPERSKY',
+        subtitle: 'KASPERSKYOS, APROTECH',
+        date: '2012 - 2018',
+        description: 'IoT in Industry, creating an environment for testing physical devices - gateways. Conducted performance testing',
+        category: 'Mobile'
+    },
+    {
+        id: 5,
+        title: 'PYTHON DEVELOPER, RAMBLER',
+        subtitle: 'AFISHA',
+        date: '2022 - 2023',
+        description: 'Created unit tests, integration and mAPI tests. Created a pipeline for building iOS and Android applications and running tests with generating reports on the server',
+        category: 'Web'
+    },
+    {
+        id: 6,
+        title: 'JUNIOR PYTHON DEVELOPER, SBERBANK',
+        subtitle: 'SBERUSER',
+        date: '2022 - 2022',
+        description: 'Built automation, set up a test environment, conducted unit, performance, bulk and functional testing, exploratory, tested api',
+        category: 'IoT'
+    },
+    {
+        id: 7,
+        title: 'SDET (PYTHON, GOLANG), KASPERSKY',
+        subtitle: 'KASPERSKYOS, APROTECH',
+        date: '2020 - 2021',
+        description: 'IoT in Industry, creating an environment for testing physical devices - gateways. Conducted performance testing',
+        category: 'IoT'
+    }
+];

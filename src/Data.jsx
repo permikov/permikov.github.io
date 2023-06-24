@@ -59,7 +59,7 @@ export const services = [
         name: 'SBERUSER',
         description: 'Built automation, set up a test environment, conducted unit, performance, bulk and functional testing, exploratory, tested api'
     }
-]
+];
 
 export const skills = [
     {
@@ -86,7 +86,7 @@ export const skills = [
         percentage: 90,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
     }
-]
+];
 
 export const projects = [
     {
@@ -117,4 +117,4 @@ export const projects = [
         title: '2D Shooter',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
     }
-]
+];

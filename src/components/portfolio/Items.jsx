@@ -23,7 +23,7 @@ const Items = ({ projectItems }) => {
                     <img src={shapeTwo} alt="" className="shape c__shape" />
                 </div>
             );
-        })};
+        })}
     </>
   );
 };

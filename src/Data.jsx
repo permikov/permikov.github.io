@@ -177,3 +177,34 @@ export const cv = [
         category: 'Education'
     }
 ];
+
+export const testimonials = [
+    {
+        id: 1,
+        img: Project1,
+        author: 'CEO Company',
+        name: 'Tools for theory graph',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 2,
+        img: Project2,
+        author: 'Charlie Smit',
+        name: 'IoT light',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 3,
+        img: Project3,
+        author: 'Ivan Raskricov',
+        name: 'Multiplayr',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 4,
+        img: Project4,
+        author: 'Yoly Intel',
+        name: '2D Shooter',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    }
+];

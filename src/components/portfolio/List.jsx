@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-const List = ({list}) => {
+const List = ({list, filterItems}) => {
   const [active, setActive] = useState(0);
   return (
     <div className='portfolio__list'>
@@ -13,6 +13,7 @@ const List = ({list}) => {
           key={index}
           onClick={() => {
             setActive(index);
+            filterItems(category);
           }}
         >
           {category}

@@ -126,7 +126,7 @@ export const cv = [
         subtitle: 'KASPERSKYOS, APROTECH',
         date: '2014 - 2016',
         description: 'IoT in Industry, creating an environment for testing physical devices - gateways. Conducted performance testing',
-        category: 'IoT'
+        category: 'Education'
     },
     {
         id: 2,
@@ -134,7 +134,7 @@ export const cv = [
         subtitle: 'AFISHA',
         date: '2016 - 2018',
         description: 'Created unit tests, integration and mAPI tests. Created a pipeline for building iOS and Android applications and running tests with generating reports on the server',
-        category: 'Developer'
+        category: 'Experience'
     },
     {
         id: 3,
@@ -142,7 +142,7 @@ export const cv = [
         subtitle: 'SBERUSER',
         date: '2015 - 2016',
         description: 'Built automation, set up a test environment, conducted unit, performance, bulk and functional testing, exploratory, tested api',
-        category: 'Web'
+        category: 'Experience'
     },
     {
         id: 4,
@@ -150,7 +150,7 @@ export const cv = [
         subtitle: 'KASPERSKYOS, APROTECH',
         date: '2012 - 2018',
         description: 'IoT in Industry, creating an environment for testing physical devices - gateways. Conducted performance testing',
-        category: 'Mobile'
+        category: 'Experience'
     },
     {
         id: 5,
@@ -158,7 +158,7 @@ export const cv = [
         subtitle: 'AFISHA',
         date: '2022 - 2023',
         description: 'Created unit tests, integration and mAPI tests. Created a pipeline for building iOS and Android applications and running tests with generating reports on the server',
-        category: 'Web'
+        category: 'Experience'
     },
     {
         id: 6,
@@ -166,7 +166,7 @@ export const cv = [
         subtitle: 'SBERUSER',
         date: '2022 - 2022',
         description: 'Built automation, set up a test environment, conducted unit, performance, bulk and functional testing, exploratory, tested api',
-        category: 'IoT'
+        category: 'Education'
     },
     {
         id: 7,
@@ -174,6 +174,6 @@ export const cv = [
         subtitle: 'KASPERSKYOS, APROTECH',
         date: '2020 - 2021',
         description: 'IoT in Industry, creating an environment for testing physical devices - gateways. Conducted performance testing',
-        category: 'IoT'
+        category: 'Education'
     }
 ];

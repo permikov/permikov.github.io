@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { cv } from '../../Data';
+import Card from './Card';
+import './resume.css';
+
 
 const Resume = () => {
   return (
@@ -10,7 +14,35 @@ const Resume = () => {
         <div className="resume__container container grid">
             <div className="resume__group">
                 <h3 className="resume__heading">Education</h3>
-                <div className="resume__items"></div>
+                <div className="resume__items">
+                    {cv.map((val, id) => {
+                        if (val.category === 'Education') {
+                            return <Card
+                                key={id}
+                                title={val.title}
+                                subtitle={val.subtitle}
+                                date={val.date}
+                                description={val.description}
+                            />;
+                        }
+                    })}
+                </div>
+            </div>
+            <div className="resume__group">
+                <h3 className="resume__heading">Experience</h3>
+                <div className="resume__items">
+                    {cv.map((val, id) => {
+                        if (val.category === 'Experience') {
+                            return <Card
+                                key={id}
+                                title={val.title}
+                                subtitle={val.subtitle}
+                                date={val.date}
+                                description={val.description}
+                            />;
+                        }
+                    })}
+                </div>
             </div>
         </div>
     </section>

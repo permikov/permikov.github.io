@@ -49,10 +49,18 @@
     right: -24px;
     bottom: -24px;
     z-index: 10;
+    transition: all 1.2s var(--transition);
 }
 
 .resume__content {
     padding-inline: 30px 50px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s ease 0s;
+}
+
+.show-content {
+    max-height: 500px;
 }
 
 .resume__date-title {

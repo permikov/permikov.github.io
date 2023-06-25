@@ -81,3 +81,10 @@
     padding-block: 20px;
     resize: none;
 }
+
+.contact__submit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 30px;
+}

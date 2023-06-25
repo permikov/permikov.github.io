@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaRegAddressBook, FaRegEnvelope, FaRegMap, FaRegUser } from 'react-icons/fa';
 import './contact.css';
 
 
 const Contact = () => {
+    const [form, setForm] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const name = e.target.name;
+        const value = e.target.value;
+        setForm({...form, [name]: value});
+    }
+
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title text-cs">Contact Me</h2>
@@ -47,19 +60,37 @@ const Contact = () => {
                         <label className="contact__form-tag text-cs">
                             Your full Name <b>*</b>
                         </label>
-                        <input type="text" className="contact__form-input" />
+                        <input
+                            type="text"
+                            name="name"
+                            onChange={handleChange}
+                            value={form.name}
+                            className="contact__form-input"
+                        />
                     </div>
                     <div className="contact__form-div">
                         <label className="contact__form-tag text-cs">
                             Your Email Address <b>*</b>
                         </label>
-                        <input type="email" className="contact__form-input" />
+                        <input
+                            type="email"
+                            name="email"
+                            onChange={handleChange}
+                            value={form.email}
+                            className="contact__form-input"
+                        />
                     </div>
                     <div className="contact__form-div">
                         <label className="contact__form-tag text-cs">
                             Your full Name <b>*</b>
                         </label>
-                        <input type="text" className="contact__form-input" />
+                        <input
+                            type="text"
+                            name="subject"
+                            onChange={handleChange}
+                            value={form.subject}
+                            className="contact__form-input"
+                        />
                     </div>
                 </div>
                 <div className="contact__form-div">
@@ -72,7 +103,18 @@ const Contact = () => {
                     <label className="contact__form-tag text-cs">
                         Your Message <b>*</b>
                     </label>
-                    <textarea className='contact__form-input' />
+                    <textarea
+                        name="message"
+                        onChange={handleChange}
+                        value={form.message}
+                        className='contact__form-input'
+                    />
+                </div>
+                <div className="contact__submit">
+                    <p>* Accept the terms and conditions</p>
+                    <button type="submit" className="btn text-cs">
+                        Send Message
+                    </button>
                 </div>
             </form>
         </div>

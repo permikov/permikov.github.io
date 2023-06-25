@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaRegAddressBook, FaRegEnvelope, FaRegMap, FaRegUser } from 'react-icons/fa';
 import './contact.css';
+import axios from 'axios';
 
 
 const Contact = () => {
@@ -15,7 +16,17 @@ const Contact = () => {
         const name = e.target.name;
         const value = e.target.value;
         setForm({...form, [name]: value});
-    }
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        axios.post(
+            "https://sheet.best/api/sheets/c8c77d90-4b96-4e6b-8336-a758364f8a9f",
+            form
+        ).then(() => {
+            setForm({name: '', email: '', subject: '', message: ''});
+        });
+    };
 
   return (
     <section className="contact section" id="contact">
@@ -54,7 +65,7 @@ const Contact = () => {
                     <p className="contact__card-data">+7 977 991 80 74</p>
                 </div>
             </div>
-            <form className="contact__form">
+            <form className="contact__form" onSubmit={handleSubmit}>
                 <div className="contact__form-group grid">
                     <div className="contact__form-div">
                         <label className="contact__form-tag text-cs">

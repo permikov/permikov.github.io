@@ -10,6 +10,7 @@ import Pricing from './components/pricing/Pricing';
 import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Blog />
       <Contact />
       <Footer />
+      <Header />
     </main>
   );
 }

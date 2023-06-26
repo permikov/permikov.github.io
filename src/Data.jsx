@@ -4,6 +4,45 @@ import Project3 from './asserts/project_multiplayer.png';
 import Project4 from './asserts/project_rpg.png';
 
 
+export const links = [
+    {
+        name: 'Home',
+        path: 'home'
+    },
+    {
+        name: 'Services',
+        path: 'services'
+    },
+    {
+        name: 'Pricing',
+        path: 'pricing'
+    },
+    {
+        name: 'Resume',
+        path: 'resume'
+    },
+    {
+        name: 'Skills',
+        path: 'skills'
+    },
+    {
+        name: 'Testimonials',
+        path: 'testimonials'
+    },
+    {
+        name: 'Portfolio',
+        path: 'portfolio'
+    },
+    {
+        name: 'Contact',
+        path: 'contact'
+    },
+    {
+        name: 'Blog',
+        path: 'blog'
+    }
+];
+
 export const services = [
     {
         id: 1,

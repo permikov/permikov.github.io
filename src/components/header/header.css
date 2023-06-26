@@ -28,6 +28,10 @@
     z-index: 10;
 }
 
+.show-menu {
+    width: 512px;
+}
+
 .nav__data {
     padding: 80px 84px 0 154px;
     margin: auto;

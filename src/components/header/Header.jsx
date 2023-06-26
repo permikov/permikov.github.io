@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useState } from 'react';
 import { links } from '../../Data';
 import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsSun, BsMoon } from 'react-icons/bs';
@@ -6,13 +6,15 @@ import './header.css';
 
 
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <header className="header">
         <nav className="nav">
             <a href="" className="nav__logo text cs">
-                Miller
+                OMIK
             </a>
-            <div className="nav__menu">
+            <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`}>
                 <div className="nav__data">
                     <ul className="nav__list">
                         {links.map(({name, path}, index) => {
@@ -42,7 +44,9 @@ const Header = () => {
                 <div className="theme__toggler">
                     <BsSun />
                 </div>
-                <div className="nav__toggle">
+                <div className="nav__toggle" onClick={
+                    () => setShowMenu(!showMenu)}
+                 >
                     <span></span>
                     <span></span>
                 </div>

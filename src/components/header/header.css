@@ -25,15 +25,16 @@
     height: 100vh;
     display: flex;
     background-color: var(--bg-color-alt);
+    transition: all 1s var(--transition);
     z-index: 10;
 }
 
 .show-menu {
-    width: 512px;
+    width: 300px;
 }
 
 .nav__data {
-    padding: 80px 84px 0 154px;
+    padding: 80px 60px 0 60px;
     margin: auto;
     width: 100%;
 }
@@ -83,13 +84,17 @@
     font-size: var(--h4-font-size);
     display: flex;
     align-items: center;
-    cursor: pointer;
 }
 
 .nav__toggle {
     height: 30px;
     width: 28px;
     position: relative;
+    z-index: 100;
+}
+
+.theme__toggler,
+.nav__toggle {
     cursor: pointer;
 }
 
@@ -99,6 +104,7 @@
     width: 100%;
     height: 2px;
     background-color: var(--title-color);
+    transition: all 0.3s var(--transition);
 }
 
 .nav__toggle span:first-child {
@@ -107,4 +113,14 @@
 
 .nav__toggle span:last-child {
     bottom: 8px;
+}
+
+.animate-toggle span:first-child {
+    transform: rotate(-45deg);
+    top: 14px;
+}
+
+.animate-toggle span:last-child {
+    transform: rotate(45deg);
+    bottom: 14px;
 }

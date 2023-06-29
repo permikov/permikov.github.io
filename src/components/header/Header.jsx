@@ -6,10 +6,18 @@ import './header.css';
 import { Link, animateScroll } from 'react-scroll';
 
 
+const getStorageTheme = () => {
+    let theme = 'light-theme';
+    if (localStorage.getItem('theme')) {
+        theme = localStorage.getItem('theme');
+    }
+    return theme;
+};
+
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
     const [scrollNav, setScrollNav] = useState(false);
-    const [theme, setTheme] = useState('light-theme');
+    const [theme, setTheme] = useState(getStorageTheme());
 
   useEffect(() => {
     document.body.classList.toggle('no-scroll', showMenu);
@@ -41,6 +49,7 @@ const Header = () => {
 
   useEffect(() => {
     document.documentElement.className = theme;
+    localStorage.setItem('theme', theme);
   }, [theme]);
 
   return (

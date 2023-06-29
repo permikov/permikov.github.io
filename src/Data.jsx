@@ -14,32 +14,32 @@ export const links = [
         path: 'services'
     },
     {
-        name: 'Pricing',
-        path: 'pricing'
-    },
-    {
-        name: 'Resume',
-        path: 'resume'
-    },
-    {
         name: 'Skills',
         path: 'skills'
-    },
-    {
-        name: 'Testimonials',
-        path: 'testimonials'
     },
     {
         name: 'Portfolio',
         path: 'portfolio'
     },
     {
-        name: 'Contact',
-        path: 'contact'
+        name: 'Resume',
+        path: 'resume'
+    },
+    {
+        name: 'Testimonials',
+        path: 'testimonials'
+    },
+    {
+        name: 'Pricing',
+        path: 'pricing'
     },
     {
         name: 'Blog',
         path: 'blog'
+    },
+    {
+        name: 'Contact',
+        path: 'contact'
     }
 ];
 

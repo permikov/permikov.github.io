@@ -9,6 +9,7 @@ import { Link, animateScroll } from 'react-scroll';
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
     const [scrollNav, setScrollNav] = useState(false);
+    const [theme, setTheme] = useState('light-theme');
 
   useEffect(() => {
     document.body.classList.toggle('no-scroll', showMenu);
@@ -26,9 +27,21 @@ const Header = () => {
     }
   }
 
+  const toggleTheme = () => {
+    if (theme === 'light-theme') {
+        setTheme('dark-theme');
+    } else {
+        setTheme('light-theme');
+    }
+  }
+
   useEffect(() => {
     window.addEventListener('scroll', changeNav);
   }, []);
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
 
   return (
     <header className={`${scrollNav ? 'scroll-header': ''} header`}>
@@ -72,7 +85,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="nav__btns">
-                <div className="theme__toggler">
+                <div className="theme__toggler" onClick={toggleTheme}>
                     <BsSun />
                 </div>
                 <div className={`${showMenu ? 'nav__toggle animate-toggle' : 'nav__toggle'}`} onClick={

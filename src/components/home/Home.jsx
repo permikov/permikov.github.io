@@ -2,6 +2,7 @@ import React from 'react'
 import profileImg from '../../asserts/profile.png';
 import shapeOne from '../../asserts/shape-1.png';
 import shapeTwo from '../../asserts/shape-2.png';
+import CV from '../../asserts/NikitaPermyakov_CV.pdf';
 import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import './home.css';
 
@@ -56,8 +57,8 @@ export const Home = () => {
                     </a>
                 </div>
                 <div className='home__btns'>
-                    <a href='https://github.com/' className='btn text-cs'>Download CV</a>
-                    <a href='https://github.com/' className='hero__link text-cs'>My Skills</a>
+                    <a download='' href={CV} className='btn text-cs'>Download CV</a>
+                    <a href='#skills' className='hero__link text-cs'>My Skills</a>
                 </div>
             </div>
         </div>

@@ -29,9 +29,11 @@ const Header = () => {
                                         className='nav__link text-cs'
                                         to={path}
                                         spy={true}
+                                        hashSpy={true}
                                         smooth={true}
-                                        offset={50}
+                                        offset={-100}
                                         duration={500}
+                                        onClick={() => setShowMenu(!showMenu)}
                                     >
                                         {name}
                                     </Link>

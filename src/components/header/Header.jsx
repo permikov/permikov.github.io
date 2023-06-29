@@ -3,6 +3,7 @@ import { links } from '../../Data';
 import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsSun, BsMoon } from 'react-icons/bs';
 import './header.css';
+import { Link } from 'react-scroll';
 
 
 const Header = () => {
@@ -24,9 +25,16 @@ const Header = () => {
                         {links.map(({name, path}, index) => {
                             return (
                                 <li className="nav__item" key={index}>
-                                    <a href="" className="nav__link text-cs">
+                                    <Link
+                                        className='nav__link text-cs'
+                                        to={path}
+                                        spy={true}
+                                        smooth={true}
+                                        offset={50}
+                                        duration={500}
+                                    >
                                         {name}
-                                    </a>
+                                    </Link>
                                 </li>
                             );
                         })}

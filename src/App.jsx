@@ -16,6 +16,7 @@ import Header from './components/header/Header';
 function App() {
   return (
     <main className='main'>
+      <Header />
       <Home />
       <Services />
       <Skills />
@@ -26,7 +27,6 @@ function App() {
       <Blog />
       <Contact />
       <Footer />
-      <Header />
     </main>
   );
 }

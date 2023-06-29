@@ -3,22 +3,39 @@ import { links } from '../../Data';
 import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsSun, BsMoon } from 'react-icons/bs';
 import './header.css';
-import { Link } from 'react-scroll';
+import { Link, animateScroll } from 'react-scroll';
 
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(false);
+    const [scrollNav, setScrollNav] = useState(false);
 
   useEffect(() => {
     document.body.classList.toggle('no-scroll', showMenu);
   }, [showMenu]);
 
+  const scrollTop = () => {
+    animateScroll.scrollToTop();
+  };
+
+  const changeNav = () => {
+    if (window.scrollY >= 80) {
+        setScrollNav(true);
+    } else {
+        setScrollNav(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeNav);
+  }, []);
+
   return (
-    <header className="header">
+    <header className={`${scrollNav ? 'scroll-header': ''} header`}>
         <nav className="nav">
-            <a href="" className="nav__logo text cs">
+            <Link to="/" onClick={scrollTop} className="nav__logo text-cs">
                 OMIK
-            </a>
+            </Link>
             <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`}>
                 <div className="nav__data">
                     <ul className="nav__list">

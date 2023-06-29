@@ -1,4 +1,4 @@
-import { React, useState } from 'react';
+import { React, useEffect, useState } from 'react';
 import { links } from '../../Data';
 import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsSun, BsMoon } from 'react-icons/bs';
@@ -7,6 +7,10 @@ import './header.css';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
+
+  useEffect(() => {
+    document.body.classList.toggle('no-scroll', showMenu);
+  }, [showMenu]);
 
   return (
     <header className="header">
@@ -44,7 +48,7 @@ const Header = () => {
                 <div className="theme__toggler">
                     <BsSun />
                 </div>
-                <div className="nav__toggle" onClick={
+                <div className={`${showMenu ? 'nav__toggle animate-toggle' : 'nav__toggle'}`} onClick={
                     () => setShowMenu(!showMenu)}
                  >
                     <span></span>

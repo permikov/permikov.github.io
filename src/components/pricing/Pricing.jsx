@@ -110,6 +110,9 @@ const Pricing = () => {
                 <img src={shapeOne} alt='' className='shape'/>
             </div>
         </div>
+        <div className="section__bg-wrapper">
+                <span className="bg__title">Pricing</span>
+            </div>
     </section>
   );
 }

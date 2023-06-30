@@ -18,6 +18,7 @@ const Testimonials = () => {
             My <span>Customers Say</span>
         </p>
         <Swiper
+            spaceBetween={30}
             pagination={{
                 clickable: true,
             }}

@@ -213,4 +213,53 @@
     width: 100px;
     height: 100px;
   }
+
+  .shape__3 {
+    bottom: -4%;
+    right: -1%;
+  }
+
+  .skills__container,
+  .portfolio__container,
+  .portfolio__container,
+  .blog__container,
+  .contact__container {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio__list {
+    column-gap: 24px;
+  }
+
+  .portfolio__list-item::before {
+    bottom: -8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .show-menu {
+    width: 100%;
+  }
+
+  .nav__btns {
+    column-gap: 24px;
+  }
+
+  .home__img-wrapper {
+    margin-top: 80px;
+  }
+
+  .resume__header {
+    padding: 28px 24px;
+  }
+
+  .resume__content {
+    padding-inline: 24px 30px;
+  }
+
+  .resume__date-title {
+    flex-direction: column;
+    align-self: flex-start;
+    row-gap: 4px;
+  }
 }

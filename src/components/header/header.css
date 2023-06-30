@@ -43,15 +43,16 @@
     display: flex;
     background-color: var(--bg-color-alt);
     transition: all 1s var(--transition);
+    overflow: hidden;
     z-index: 10;
 }
 
 .show-menu {
-    width: 300px;
+    width: 350px;
 }
 
 .nav__data {
-    padding: 80px 60px 0 60px;
+    padding: 80px 60px 0 80px;
     margin: auto;
     width: 100%;
 }
@@ -142,4 +143,14 @@
 .animate-toggle span:last-child {
     transform: rotate(45deg);
     bottom: 14px;
+}
+
+.header__deco {
+    left: 50px;
+}
+
+.header__deco .shape {
+    top: -200px;
+    left: -175px;
+    z-index: -1;
 }

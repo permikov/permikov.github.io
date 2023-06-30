@@ -3,6 +3,7 @@ import { links } from '../../Data';
 import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsSun, BsMoon } from 'react-icons/bs';
 import './header.css';
+import shapeOne from '../../asserts/shape-1.png';
 import { Link, animateScroll } from 'react-scroll';
 
 
@@ -91,6 +92,9 @@ const Header = () => {
                             <FaLinkedin />
                         </a>
                     </div>
+                </div>
+                <div className='section__deco deco__left header__deco'>
+                    <img src={shapeOne} alt='' className='shape'/>
                 </div>
             </div>
             <div className="nav__btns">

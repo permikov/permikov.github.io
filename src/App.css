@@ -193,6 +193,10 @@ img {
     opacity: 0.6;
 }
 
+.main {
+    overflow: hidden;
+}
+
 .section {
     padding-bottom: 220px;
     position: relative;

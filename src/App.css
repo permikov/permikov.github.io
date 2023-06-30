@@ -270,6 +270,6 @@ img {
     transform: translateY(-50%);
     width: 2px;
     height: 70%;
-    background-color: var(--border-colorb);
+    background-color: var(--border-color);
     z-index: 1;
 }

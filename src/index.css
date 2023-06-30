@@ -67,7 +67,7 @@
 
   .skills__container,
   .portfolio__container,
-  .portfolio__container,
+  .pricing__container,
   .blog__container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -221,7 +221,7 @@
 
   .skills__container,
   .portfolio__container,
-  .portfolio__container,
+  .pricing__container,
   .blog__container,
   .contact__container {
     grid-template-columns: 1fr;
@@ -261,5 +261,59 @@
     flex-direction: column;
     align-self: flex-start;
     row-gap: 4px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .nav__data {
+    padding: 80px 0 0 80px;
+  }
+
+  .header__deco {
+    left: 40px;
+  }
+
+  .home__img-wrapper {
+    margin-top: 60px;
+  }
+
+  .home__data {
+    transform: scale(0.5);
+  }
+
+  .home__data-one {
+    left: -12%;
+    bottom: 5%;
+  }
+
+  .home__data-two {
+    right: -10%;
+    bottom: -5%;
+  }
+
+  .card-one,
+  .card-two {
+    padding: 24px;
+  }
+
+  .skills__titles,
+  .skills__description {
+    padding-inline: 16px;
+  }
+
+  .portfolio__img {
+    height: 180px;
+  }
+
+  .resume__header {
+    padding: 24px 18px;
+  }
+
+  .resume__content {
+    padding-inline: 18px 20px;
+  }
+
+  .testimonial__img {
+    height: 140px;
   }
 }

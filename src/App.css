@@ -68,6 +68,15 @@
     background-color: var(--primary-color);
 }
 
+.light-theme .shape {
+    filter: invert(0);
+    opacity: 1;
+}
+
+.light-theme .bg__title {
+    color: rgba(0, 0, 0, 0.02);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -181,10 +190,6 @@ img {
     transform: scale(1);
     filter: blur(0);
     opacity: 1;
-}
-
-.light-theme .shape {
-    filter: invert(0);
 }
 
 .shape {

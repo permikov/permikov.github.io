@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper';
+import shapeOne from '../../asserts/shape-1.png';
 import shapeTwo from '../../asserts/shape-2.png';
 import './services.css';
 
@@ -51,6 +52,9 @@ const Services = () => {
                     );
                 })}
             </Swiper>
+            <div className='section__deco deco__right'>
+                <img src={shapeOne} alt='' className='shape'/>
+            </div>
         </section>
     );
 };

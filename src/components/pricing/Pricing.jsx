@@ -1,4 +1,5 @@
 import React from 'react';
+import shapeOne from '../../asserts/shape-1.png';
 import shapeTwo from '../../asserts/shape-2.png';
 import { FaCheck, FaArrowRight } from 'react-icons/fa';
 import './pricing.css';
@@ -104,6 +105,9 @@ const Pricing = () => {
                     <FaArrowRight className="pricing__btn-icon"></FaArrowRight>
                 </a>
                 <img src={shapeTwo} alt="" className="shape c__shape" />
+            </div>
+            <div className='section__deco deco__left'>
+                <img src={shapeOne} alt='' className='shape'/>
             </div>
         </div>
     </section>

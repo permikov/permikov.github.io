@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
+import shapeOne from '../../asserts/shape-1.png';
 import Blog1 from '../../asserts/blog1.jpg';
 import Blog2 from '../../asserts/blog2.jpg';
 import Blog3 from '../../asserts/blog3.jpg';
@@ -50,6 +51,9 @@ const Blog = () => {
                 </a>
                 <img src={Blog3} alt="" className="blog__img" />
             </div>
+        </div>
+        <div className='section__deco deco__right'>
+            <img src={shapeOne} alt='' className='shape'/>
         </div>
     </section>
   );

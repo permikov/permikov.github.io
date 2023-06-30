@@ -61,6 +61,9 @@ export const Home = () => {
                     <a href='#skills' className='hero__link text-cs'>My Skills</a>
                 </div>
             </div>
+            <div className='section__deco deco__left'>
+                <img src={shapeOne} alt='' className='shape'/>
+            </div>
         </div>
     </section>
   )

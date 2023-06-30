@@ -4,6 +4,7 @@ import Items from './Items';
 import { projects } from '../../Data';
 import "./portfolio.css";
 import { AnimatePresence } from 'framer-motion';
+import shapeOne from '../../asserts/shape-1.png';
 
 
 const allNavList = [
@@ -31,10 +32,13 @@ const Portfolio = () => {
         </p>
         <List list={navList} filterItems={filterItems}/>
         <div className="portfolio__container container grid">
-			<AnimatePresence initial={false}>
-            	<Items projectItems={projectItems} />
-			</AnimatePresence>
+            <AnimatePresence initial={false}>
+                <Items projectItems={projectItems} />
+            </AnimatePresence>
         </div>
+		<div className='section__deco deco__right'>
+			<img src={shapeOne} alt='' className='shape'/>
+		</div>
     </section>
   );
 };

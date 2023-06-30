@@ -1,6 +1,7 @@
 import React from 'react';
 import { cv } from '../../Data';
 import Card from './Card';
+import shapeOne from '../../asserts/shape-1.png';
 import './resume.css';
 
 
@@ -44,6 +45,9 @@ const Resume = () => {
                     })}
                 </div>
             </div>
+        </div>
+        <div className='section__deco deco__left'>
+            <img src={shapeOne} alt='' className='shape'/>
         </div>
     </section>
   )

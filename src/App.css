@@ -195,6 +195,7 @@ img {
 
 .section {
     padding-bottom: 220px;
+    position: relative;
 }
 
 .section__title,
@@ -261,4 +262,14 @@ img {
     bottom: -50px;
     width: 140px;
     height: 140px;
+}
+
+.section__deco {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 70%;
+    background-color: var(--border-colorb);
+    z-index: 1;
 }

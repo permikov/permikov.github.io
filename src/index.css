@@ -31,3 +31,48 @@
     height: 125px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .home {
+    padding-top: 140px;
+  }
+
+  .home__subtitle,
+  .home__title,
+  .home__job,
+  .home__text {
+    text-align: center;
+  }
+
+  .home__text {
+    margin-inline: auto;
+  }
+
+  .home__img-wrapper {
+    position: relative;
+    transform: initial;
+    right: initial;
+    margin-inline: auto;
+    margin-top: 140px;
+  }
+
+  .home__socials,
+  .home__btns {
+    justify-content: center;
+  }
+
+  .skills__container,
+  .portfolio__container,
+  .portfolio__container,
+  .blog__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__copyright:nth-child(2) {
+    justify-self: start;
+  }
+}

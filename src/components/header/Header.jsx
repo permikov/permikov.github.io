@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from 'react';
 import { links } from '../../Data';
-import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaTelegram, FaVk } from 'react-icons/fa';
 import { BsSun, BsMoon } from 'react-icons/bs';
 import './header.css';
 import shapeOne from '../../asserts/shape-1.png';
@@ -82,14 +82,11 @@ const Header = () => {
                         })}
                     </ul>
                     <div className='header__socials'>
-                        <a href='https://t.me/nikit34' className='header__social-link'>
+                        <a href='https://t.me/nikit34' className='home__social-link'>
                             <FaTelegram />
                         </a>
-                        <a href='https://github.com/nikit34' className='header__social-link'>
-                            <FaGithub />
-                        </a>
-                        <a href='https://www.linkedin.com/in/nikitapermikov/' className='header__social-link'>
-                            <FaLinkedin />
+                        <a href='https://vk.com/id406247919' className='home__social-link'>
+                            <FaVk />
                         </a>
                     </div>
                 </div>

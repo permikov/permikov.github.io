@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImg from '../../asserts/profile.png';
+import profileImg from '../../asserts/profile_nikita.png';
 import shapeOne from '../../asserts/shape-1.png';
 import shapeTwo from '../../asserts/shape-2.png';
 import CV from '../../asserts/NikitaPermyakov_CV.pdf';
@@ -13,9 +13,9 @@ export const Home = () => {
         <div className='home__wrapper'>
             <div className='home__container container'>
                 <p className='home__subtitle text-cs'>Hello, <span>My Name Is</span></p>
-                <h1 className='home__title text-cs'><span>NASTYA</span> OMIK</h1>
+                <h1 className='home__title text-cs'><span>NIKITA</span> PERMIAKOV</h1>
                 <p className='home__job'>
-                    <span className='text-cs'>I Am</span> <b>Lawyer</b>
+                    <span className='text-cs'>I Am</span> <b>Programmer</b>
                 </p>
                 <div className='home__img-wrapper'>
                     <div className='home__banner'>

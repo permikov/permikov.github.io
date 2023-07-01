@@ -4,39 +4,39 @@ import Project2 from './asserts/project_steps.jpeg';
 
 export const links = [
     {
-        name: 'Home',
+        name: 'Главная',
         path: 'home'
     },
     {
-        name: 'Services',
+        name: 'Услуги',
         path: 'services'
     },
     {
-        name: 'Skills',
+        name: 'Навыки',
         path: 'skills'
     },
     {
-        name: 'Portfolio',
+        name: 'Портфолио',
         path: 'portfolio'
     },
     {
-        name: 'Resume',
+        name: 'Резюме',
         path: 'resume'
     },
     {
-        name: 'Testimonials',
+        name: 'Отзывы',
         path: 'testimonials'
     },
     {
-        name: 'Pricing',
+        name: 'Прайс-лист',
         path: 'pricing'
     },
     {
-        name: 'Blog',
+        name: 'Блог',
         path: 'blog'
     },
     {
-        name: 'Contact',
+        name: 'Контакты',
         path: 'contact'
     }
 ];

@@ -8,9 +8,9 @@ import './pricing.css';
 const Pricing = () => {
   return (
     <section className="pricing section" id="pricing">
-        <h2 className="section__title text-cs">Pricing</h2>
+        <h2 className="section__title text-cs">Прайс-лист</h2>
         <p className="section__subtitle">
-            My <span>Price Board</span>
+            Моя <span>Стоимость</span>
         </p>
         <div className='pricing__container container grid'>
             <div className="pricing__item card card-one">

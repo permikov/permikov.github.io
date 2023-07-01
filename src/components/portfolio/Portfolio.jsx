@@ -8,7 +8,7 @@ import shapeOne from '../../asserts/shape-1.png';
 
 
 const allNavList = [
-  'all',
+  'все',
   ...new Set(projects.map((project) => project.category))
 ];
 
@@ -16,7 +16,7 @@ const Portfolio = () => {
   const [projectItems, setMenuItems] = useState(projects);
   const [navList, setCategories] = useState(allNavList);
   const filterItems = (category) => {
-    if (category === 'all') {
+    if (category === 'все') {
       setMenuItems(projects);
       return;
     }
@@ -26,9 +26,9 @@ const Portfolio = () => {
 
   return (
     <section className='portfolio section' id='work'>
-        <h2 className="section__title text-cs">Portfolio</h2>
+        <h2 className="section__title text-cs">Портфолио</h2>
         <p className="section__subtitle">
-            My <span>Cases</span>
+            Мои <span>Заказы</span>
         </p>
         <List list={navList} filterItems={filterItems}/>
         <div className="portfolio__container container grid">

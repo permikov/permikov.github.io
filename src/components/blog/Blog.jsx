@@ -10,9 +10,9 @@ import './blog.css';
 const Blog = () => {
   return (
     <section className="blog section" id="blog">
-        <h2 className="section__title text-cs">Latest Blog</h2>
+        <h2 className="section__title text-cs">Блог</h2>
         <p className="section__subtitle">
-            My <span>Articles and Advice</span>
+            Мои <span>Статьи</span>
         </p>
         <div className="blog__container container grid">
             <div className="blog__item card card-two">

@@ -13,9 +13,9 @@ import { testimonials } from '../../Data';
 const Testimonials = () => {
   return (
     <section className="testimonials section" id="testimonials">
-        <h2 className="section__title text-cs">Testimonials</h2>
+        <h2 className="section__title text-cs">Отзывы</h2>
         <p className="section__subtitle">
-            My <span>Customers Say</span>
+            Моя <span>Обратная Связь</span>
         </p>
         <Swiper
             spaceBetween={30}

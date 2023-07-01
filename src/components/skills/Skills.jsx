@@ -7,9 +7,9 @@ import './skills.css'
 const Skills = () => {
     return (
         <section className="skills section" id="skills">
-            <h2 className="section__title text-cs">Professional Skills</h2>
+            <h2 className="section__title text-cs">Профессиональные навыки</h2>
             <p className="section__subtitle">
-                My <span>Talent</span>
+                Мой <span>Талант</span>
             </p>
             <div className="skills__container container grid">
                 {skills.map(({name, percentage, description}, index) => {

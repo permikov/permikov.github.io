@@ -8,13 +8,13 @@ import './resume.css';
 const Resume = () => {
   return (
     <section className="resume section" id="resume">
-        <h2 className="section__title text-cs">Resume</h2>
+        <h2 className="section__title text-cs">Резюме</h2>
         <p className="section__subtitle">
-            My <span>Story</span>
+            Моя <span>История</span>
         </p>
         <div className="resume__container container grid">
             <div className="resume__group">
-                <h3 className="resume__heading">Education</h3>
+                <h3 className="resume__heading">Образование</h3>
                 <div className="resume__items">
                     {cv.map((val, id) => {
                         if (val.category === 'Education') {
@@ -30,7 +30,7 @@ const Resume = () => {
                 </div>
             </div>
             <div className="resume__group">
-                <h3 className="resume__heading">Experience</h3>
+                <h3 className="resume__heading">Опыт</h3>
                 <div className="resume__items">
                     {cv.map((val, id) => {
                         if (val.category === 'Experience') {

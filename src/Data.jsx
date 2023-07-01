@@ -1,7 +1,5 @@
-import Project1 from './asserts/project_graph.png';
-import Project2 from './asserts/project_light.png';
-import Project3 from './asserts/project_multiplayer.png';
-import Project4 from './asserts/project_rpg.png';
+import Project1 from './asserts/project_birds.jpeg';
+import Project2 from './asserts/project_steps.jpeg';
 
 
 export const links = [
@@ -131,29 +129,15 @@ export const projects = [
     {
         id: 1,
         img: Project1,
-        category: 'Tools',
-        title: 'Tools for theory graph',
+        category: 'Ступени',
+        title: 'Ступени парадного входа',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
     },
     {
         id: 2,
         img: Project2,
-        category: 'IoT',
-        title: 'IoT light',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
-    },
-    {
-        id: 3,
-        img: Project3,
-        category: 'Game',
-        title: 'Multiplayr',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
-    },
-    {
-        id: 4,
-        img: Project4,
-        category: 'Game',
-        title: '2D Shooter',
+        category: 'Декорации',
+        title: 'Декорация на стену',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
     }
 ];
@@ -230,20 +214,6 @@ export const testimonials = [
         img: Project2,
         author: 'Charlie Smit',
         name: 'IoT light',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
-    },
-    {
-        id: 3,
-        img: Project3,
-        author: 'Ivan Raskricov',
-        name: 'Multiplayr',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
-    },
-    {
-        id: 4,
-        img: Project4,
-        author: 'Yoly Intel',
-        name: '2D Shooter',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
     }
 ];

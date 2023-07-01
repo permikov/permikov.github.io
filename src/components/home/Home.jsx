@@ -1,9 +1,9 @@
 import React from 'react'
-import profileImg from '../../asserts/profile_nikita.png';
+import profileImg from '../../asserts/profile.png';
 import shapeOne from '../../asserts/shape-1.png';
 import shapeTwo from '../../asserts/shape-2.png';
 import CV from '../../asserts/NikitaPermyakov_CV.pdf';
-import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaTelegram, FaVk } from 'react-icons/fa';
 import './home.css';
 
 
@@ -12,10 +12,10 @@ export const Home = () => {
     <section className='home' id='home'>
         <div className='home__wrapper'>
             <div className='home__container container'>
-                <p className='home__subtitle text-cs'>Hello, <span>My Name Is</span></p>
-                <h1 className='home__title text-cs'><span>NIKITA</span> PERMIAKOV</h1>
+                <p className='home__subtitle text-cs'>Здравствуйте, <span>я представляю компанию</span></p>
+                <h1 className='home__title text-cs'><span>Гранит</span> ИП Пермяков</h1>
                 <p className='home__job'>
-                    <span className='text-cs'>I Am</span> <b>Programmer</b>
+                    <span className='text-cs'>Мы занимаемся</span><b>природным камнем</b><span className='text-cs'>на Южном урале</span>
                 </p>
                 <div className='home__img-wrapper'>
                     <div className='home__banner'>
@@ -23,18 +23,18 @@ export const Home = () => {
                     </div>
                     <p className='home__data home__data-one'>
                         <span className='text-lg'>
-                            6 <b>+</b>
+                            36 <b>+</b>
                         </span>
                         <span className='text-sm text-cs'>
-                            Years of <span>Experience</span>
+                            Лет в <span>камнеобработке</span>
                         </span>
                     </p>
                     <p className='home__data home__data-two'>
                         <span className='text-lg'>
-                            330
+                            300 <b>+</b>
                         </span>
                         <span className='text-sm text-cs'>
-                            Completed <span>Projects</span>
+                            Завершенных <span>Проектов</span>
                         </span>
                     </p>
 
@@ -43,17 +43,15 @@ export const Home = () => {
                     <img src={shapeTwo} alt='' className='shape shape__3'></img>
                 </div>
                 <p className='home__text'>
-                    From Portugal, Lisbon
+                    Мой карьерный путь начался в 1990 году, с самого начала и до 2022 года я был гендиректором отдела продаж  ООО "Магия камня".
+                    Наш бизнес выигрывал самые дорогие тендеры. Мы делали "Шапку мономаха" - памятник в 41 метр диаметр на Кутузовской г. Москвы, облицовывали собор "Название" и т.д.
                 </p>
-                <div className='home__socials'>
+                <div className='home__socials'>]
                     <a href='https://t.me/nikit34' className='home__social-link'>
                         <FaTelegram />
                     </a>
-                    <a href='https://github.com/nikit34' className='home__social-link'>
-                        <FaGithub />
-                    </a>
-                    <a href='https://www.linkedin.com/in/nikitapermikov/' className='home__social-link'>
-                        <FaLinkedin />
+                    <a href='https://vk.com/id406247919' className='home__social-link'>
+                        <FaVk />
                     </a>
                 </div>
                 <div className='home__btns'>

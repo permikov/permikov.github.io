@@ -57,7 +57,7 @@ const Header = () => {
     <header className={`${scrollNav ? 'scroll-header': ''} header`}>
         <nav className="nav">
             <Link to="/" onClick={scrollTop} className="nav__logo text-cs">
-                PERMIAKOV
+                ИП Пермяков
             </Link>
             <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`}>
                 <div className="nav__data">

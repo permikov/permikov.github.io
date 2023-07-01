@@ -40,6 +40,7 @@
     font-family: var(--second-font);
     font-size: var(--h2-font-size);
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .home__title {
@@ -139,18 +140,18 @@
 
 .home__data .text-lg,
 .home__data .text-sm {
-    width: 50%;
+    width: 40%;
     color: var(--title-color);
     font-weight: 700;
 }
 
 .home__data .text-lg {
     text-align: center;
-    font-size: 37px;
+    font-size: 28px;
 }
 
 .home__data .text-sm {
-    font-size: 13px;
+    font-size: 11px;
     line-height: 1.5em;
 }
 

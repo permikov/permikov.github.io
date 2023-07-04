@@ -1,5 +1,16 @@
-import Project1 from './asserts/project_steps.jpeg';
-import Project2 from './asserts/project_birds.jpeg';
+import Project1 from './asserts/projects/decor_1.jpg';
+import Project2 from './asserts/projects/steps_1.jpg';
+import Project3 from './asserts/projects/steps_2.jpg';
+import Project4 from './asserts/projects/steps_3.jpg';
+import Project5 from './asserts/projects/steps_4.jpg';
+import Project6 from './asserts/projects/steps_5.jpg';
+import Project7 from './asserts/projects/steps_6.jpg';
+import Project8 from './asserts/projects/area_1.jpg';
+import Project9 from './asserts/projects/area_2.jpg';
+import Project10 from './asserts/projects/area_3.jpg';
+import Project11 from './asserts/projects/area_4.jpg';
+import Project12 from './asserts/projects/area_5.jpg';
+import Project13 from './asserts/projects/area_6.jpg';
 
 
 export const links = [
@@ -103,15 +114,85 @@ export const projects = [
     {
         id: 1,
         img: Project1,
+        category: 'Декорации',
+        title: 'Декорация на стену',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 2,
+        img: Project3,
         category: 'Ступени',
         title: 'Ступени парадного входа',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
     },
     {
-        id: 2,
-        img: Project2,
-        category: 'Декорации',
+        id: 3,
+        img: Project4,
+        category: 'Ступени',
+        title: 'Ступени парадного входа',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 4,
+        img: Project5,
+        category: 'Ступени',
         title: 'Декорация на стену',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 5,
+        img: Project6,
+        category: 'Ступени',
+        title: 'Ступени парадного входа',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 6,
+        img: Project7,
+        category: 'Ступени',
+        title: 'Декорация на стену',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 7,
+        img: Project8,
+        category: 'Площадки',
+        title: 'Ступени парадного входа',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 8,
+        img: Project9,
+        category: 'Площадки',
+        title: 'Декорация на стену',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 9,
+        img: Project10,
+        category: 'Площадки',
+        title: 'Ступени парадного входа',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 10,
+        img: Project11,
+        category: 'Площадки',
+        title: 'Декорация на стену',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 11,
+        img: Project12,
+        category: 'Площадки',
+        title: 'Декорация на стену',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
+    },
+    {
+        id: 12,
+        img: Project13,
+        category: 'Площадки',
+        title: 'Ступени парадного входа',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper diam urna, sed sodales felis facilisis ut. Duis libero dolor, pretium vel sapien sed, tempus interdum mi'
     }
 ];

@@ -44,57 +44,39 @@ export const links = [
 export const services = [
     {
         id: 1,
-        title: 'SDET (PYTHON, GOLANG), KASPERSKY',
-        name: 'KASPERSKYOS, APROTECH',
-        description: 'IoT in Industry, creating an environment for testing physical devices - gateways. Conducted performance testing'
+        title: 'Поставка изделий из природного камня',
+        name: 'Материал',
+        description: 'Гранит и мрамор Уральских месторождений, месторождений Карелии, Казахстана, Европы, Турции, Китая, Индии'
     },
     {
         id: 2,
-        title: 'PYTHON DEVELOPER, RAMBLER',
-        name: 'AFISHA',
-        description: 'Created unit tests, integration and mAPI tests. Created a pipeline for building iOS and Android applications and running tests with generating reports on the server'
+        title: 'Изделия из природного камня',
+        name: 'Изделия',
+        description: 'Плита и плитка полированная (разных размеров и фактуры), для облицовки фасадов зданий, сооружений, цоколей, подпорных стенок, полов и стен помещений'
     },
     {
         id: 3,
-        title: 'JUNIOR PYTHON DEVELOPER, SBERBANK',
-        name: 'SBERUSER',
-        description: 'Built automation, set up a test environment, conducted unit, performance, bulk and functional testing, exploratory, tested api'
+        title: 'Архитектурно-строительные элементы',
+        name: 'Элементы',
+        description: 'Фонтаны, парапеты, карнизы, (ограничивающие элементы - балясины, перила..), скульптуры, мемориальные комплексы и памятные доски'
     },
     {
         id: 4,
-        title: 'SDET (PYTHON, GOLANG), KASPERSKY',
-        name: 'KASPERSKYOS, APROTECH',
-        description: 'IoT in Industry, creating an environment for testing physical devices - gateways. Conducted performance testing'
+        title: 'Изделия из природного камня',
+        name: 'Изделия',
+        description: 'Плиты накрывочные (разных размеров и фактуры), для покрытия ступеней и площадок входных групп, подпорных стен, лестничных маршей и площадок'
     },
     {
         id: 5,
-        title: 'PYTHON DEVELOPER, RAMBLER',
-        name: 'AFISHA',
-        description: 'Created unit tests, integration and mAPI tests. Created a pipeline for building iOS and Android applications and running tests with generating reports on the server'
+        title: 'Архитектурно-строительные элементы',
+        name: 'Элементы',
+        description: 'Подоконники, столешницы, камины, барные стойки и пр'
     },
     {
         id: 6,
-        title: 'JUNIOR PYTHON DEVELOPER, SBERBANK',
-        name: 'SBERUSER',
-        description: 'Built automation, set up a test environment, conducted unit, performance, bulk and functional testing, exploratory, tested api'
-    },
-    {
-        id: 7,
-        title: 'SDET (PYTHON, GOLANG), KASPERSKY',
-        name: 'KASPERSKYOS, APROTECH',
-        description: 'IoT in Industry, creating an environment for testing physical devices - gateways. Conducted performance testing'
-    },
-    {
-        id: 8,
-        title: 'PYTHON DEVELOPER, RAMBLER',
-        name: 'AFISHA',
-        description: 'Created unit tests, integration and mAPI tests. Created a pipeline for building iOS and Android applications and running tests with generating reports on the server'
-    },
-    {
-        id: 9,
-        title: 'JUNIOR PYTHON DEVELOPER, SBERBANK',
-        name: 'SBERUSER',
-        description: 'Built automation, set up a test environment, conducted unit, performance, bulk and functional testing, exploratory, tested api'
+        title: 'Изделия из природного камня',
+        name: 'Изделия',
+        description: 'Брусчатка, бордюр, поребрик для мощения улиц, дорог, площадей'
     }
 ];
 

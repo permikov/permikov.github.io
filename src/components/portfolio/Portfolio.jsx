@@ -36,7 +36,7 @@ const Portfolio = () => {
                 <Items projectItems={projectItems} />
             </AnimatePresence>
         </div>
-        <div className='section__deco deco__right'>
+        <div className='section__deco deco__left'>
             <img src={shapeOne} alt='' className='shape'/>
         </div>
         <div className="section__bg-wrapper">

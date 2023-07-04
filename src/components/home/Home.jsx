@@ -2,7 +2,6 @@ import React from 'react'
 import profileImg from '../../asserts/profile.png';
 import shapeOne from '../../asserts/shape-1.png';
 import shapeTwo from '../../asserts/shape-2.png';
-import CV from '../../asserts/NikitaPermyakov_CV.pdf';
 import { FaTelegram, FaVk } from 'react-icons/fa';
 import './home.css';
 
@@ -53,10 +52,6 @@ export const Home = () => {
                     <a href='https://vk.com/id406247919' className='home__social-link'>
                         <FaVk />
                     </a>
-                </div>
-                <div className='home__btns'>
-                    <a download='' href={CV} className='btn text-cs'>Download CV</a>
-                    <a href='#skills' className='hero__link text-cs'>My Skills</a>
                 </div>
             </div>
             <div className='section__deco deco__left'>

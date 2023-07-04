@@ -42,21 +42,21 @@ const Contact = () => {
                         <FaRegMap />
                     </span>
                     <h3 className="contact__card-title">Адрес</h3>
-                    <p className="contact__card-data">ул. Магдалина Бешкекова д. 5, Ташкент, Узбекистан</p>
+                    <p className="contact__card-data">ул. Коммуны, Челябинск</p>
                 </div>
                 <div className="contact__card">
                     <span className="contact__card-icon">
                         <FaRegUser />
                     </span>
-                    <h3 className="contact__card-title">Менеджер по продажам</h3>
-                    <p className="contact__card-data">Иван Антонов</p>
+                    <h3 className="contact__card-title">CEO</h3>
+                    <p className="contact__card-data">Александр Сергеевич Пермяков</p>
                 </div>
                 <div className="contact__card">
                     <span className="contact__card-icon">
                         <FaRegEnvelope />
                     </span>
                     <h3 className="contact__card-title">Email</h3>
-                    <p className="contact__card-data">permikov134@yandex.ru</p>
+                    <p className="contact__card-data">permikov04@yandex.ru</p>
                 </div>
                 <div className="contact__card">
                     <span className="contact__card-icon">

@@ -12,23 +12,15 @@ export const links = [
         path: 'services'
     },
     {
-        name: 'Навыки',
-        path: 'skills'
-    },
-    {
         name: 'Портфолио',
         path: 'portfolio'
-    },
-    {
-        name: 'Резюме',
-        path: 'resume'
     },
     {
         name: 'Отзывы',
         path: 'testimonials'
     },
     {
-        name: 'Прайс-лист',
+        name: 'Прайслист',
         path: 'pricing'
     },
     {

@@ -111,7 +111,7 @@ const Pricing = () => {
             </div>
         </div>
         <div className="section__bg-wrapper">
-                <span className="bg__title">Pricing</span>
+                <span className="bg__title">Прайс-лист</span>
             </div>
     </section>
   );

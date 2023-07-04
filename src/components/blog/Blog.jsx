@@ -56,7 +56,7 @@ const Blog = () => {
             <img src={shapeOne} alt='' className='shape'/>
         </div>
         <div className="section__bg-wrapper">
-            <span className="bg__title">Blog</span>
+            <span className="bg__title">Блог</span>
         </div>
     </section>
   );

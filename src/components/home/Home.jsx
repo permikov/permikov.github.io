@@ -59,7 +59,7 @@ export const Home = () => {
             </div>
         </div>
         <div className="section__bg-wrapper">
-            <span className="bg__title">Web Developer</span>
+            <span className="bg__title">Гранит</span>
         </div>
     </section>
   )

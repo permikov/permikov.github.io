@@ -59,7 +59,7 @@ const Testimonials = () => {
             <img src={shapeOne} alt='' className='shape'/>
         </div>
         <div className="section__bg-wrapper">
-            <span className="bg__title">Reviews</span>
+            <span className="bg__title">Отзывы</span>
         </div>
     </section>
   );

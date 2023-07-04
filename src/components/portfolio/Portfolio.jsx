@@ -40,7 +40,7 @@ const Portfolio = () => {
             <img src={shapeOne} alt='' className='shape'/>
         </div>
         <div className="section__bg-wrapper">
-            <span className="bg__title">Portfolio</span>
+            <span className="bg__title">Портфолио</span>
         </div>
     </section>
   );

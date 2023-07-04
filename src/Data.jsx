@@ -1,5 +1,5 @@
-import Project1 from './asserts/project_birds.jpeg';
-import Project2 from './asserts/project_steps.jpeg';
+import Project1 from './asserts/project_steps.jpeg';
+import Project2 from './asserts/project_birds.jpeg';
 
 
 export const links = [

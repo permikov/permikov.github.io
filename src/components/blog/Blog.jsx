@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import shapeOne from '../../asserts/shape-1.png';
-import Blog1 from '../../asserts/blog1.jpg';
-import Blog2 from '../../asserts/blog2.jpg';
-import Blog3 from '../../asserts/blog3.jpg';
+import Blog1 from '../../asserts/blogs/blog1.jpg';
+import Blog2 from '../../asserts/blogs/blog2.jpg';
+import Blog3 from '../../asserts/blogs/blog3.jpg';
 import './blog.css';
 
 
